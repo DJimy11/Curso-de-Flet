@@ -12,7 +12,7 @@ def main(page: Page):
                 AppBar(title=Text('Flet App'), bgcolor=colors.SURFACE)
             ]
         )
-
+    page.update()
     
     
     page.on_route_change = nova_rota 
